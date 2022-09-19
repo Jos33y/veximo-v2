@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+.hero {
+    background: rgb(238,125,155);
+    background: linear-gradient(0deg, rgba(238,125,155,1) 0%, rgba(44,52,124,1) 40%, rgba(1,9,48,1) 100%);
+    height: 600px;
+    width: 700px;
+    float: right;
+    margin-right: 80px;
+}
+
+.left-home-content {
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.left-home-content h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color:#101010;
+    margin-top: 30px;
+    animation-duration: 2s;
+}
+.left-home-content p {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color:#101010;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    width: 349px;
+    margin-top: 15px;
+    animation-duration: 2s;
+}
+.left-home-content .socials-icon {
+
+}
+.left-home-content .social-icon {
+    color: #101010;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.btn-dark {
+    height: 48px;
+    width: 160px;
+    background: transparent;
+    border: 1px solid #101010;
+    border-radius: 10px;
+    color: #101010;
+    animation-duration: 2s;
+}
+.store {
+    margin-right: 10px;
+}
+.icon {
+    margin-right: 3px;
+}
+
+.signUp {
+    margin-top: 50px;
+    margin-left: 60px;
+    animation-duration: 2s;
+}
+
+.signUp .form-control {
+    height: 50px;
+    width: 370px;
+    margin: 15px 0 0 15px;
+    border-radius: 8px;
+}
+.signUp .btn-purple {
+    height: 50px;
+    width: 370px;
+    margin: 40px 55px 0 0;
+    border-radius: 8px;
+    background: purple;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+}
+.signUp .btn-dark {
+    background: #FFFFFF;
+    color: #101010;
+    height: 50px;
+    width: 370px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    margin-right: 60px;
+}
+.signUp .google-icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.signUp .forgot-password {
+    text-align: right;
+    margin-right: 150px;
+}
+.signUp .agree {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.214286px;
+    text-align: left!important;
+    width: 320px;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+.signUp .register {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+

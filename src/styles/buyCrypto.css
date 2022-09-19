@@ -1,0 +1,81 @@
+.image1 {
+    height: 600px;
+    width: 250px;
+    padding-top: 50px;
+
+}
+.left-se1 {
+    text-align: left;
+    height: 500px;
+    border: none;
+}
+.left-se1 p{
+    width: 300px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color:  #101010;
+    mix-blend-mode: normal;
+    margin-left: 100px;
+    padding-top: 150px;
+}
+.left-se1 .btn {
+    background: transparent;
+    border:1px solid  #101010;
+    width: 160px;
+    height: 48px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.mobile-portfolio {
+    height: 500px;
+    width: 250px;
+}
+.right-se1 {
+    text-align: left;
+}
+.right-se1 ul {
+    padding-top: 20px;
+    margin-right: 50px;
+}
+.right-se1 li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #101010;
+    mix-blend-mode: normal;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.icons {
+    color:  #101010;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.middle-se1 {
+    margin-top: 100px;
+}
+.middle-se1 h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    width: 500px;
+    text-align: left;
+}
+.middle-se1 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    margin-top: 30px;
+}
+.demo-class {
+    background-image: url("../assets/home/Animated5.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
