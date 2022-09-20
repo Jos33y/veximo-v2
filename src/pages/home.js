@@ -8,6 +8,7 @@ import Nav from "../component/nav";
 import 'animate.css';
 import BuyCrypto from "../component/buyCrypto";
 import Privacy from "../component/privacy";
+import Quick from "../component/qucikDepositWithdrawl";
 
 const Home = () => {
   return (
@@ -49,6 +50,7 @@ const Home = () => {
               </section>
           <BuyCrypto />
           <Privacy />
+          <Quick />
       </>
   );
 }

@@ -31,7 +31,7 @@ const Privacy = () => {
           <section className="section3">
               <div className="d-flex justify-content-center">
                   <div className="box1">
-                      <img src={crypto} alt="" className="crypto"/>
+                      <img src={crypto2} alt="" className="crypto"/>
                   </div>
                   <div className="middle-box">
                       <h2>Our accounts are 100% backed</h2>
