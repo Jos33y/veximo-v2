@@ -1,9 +1,24 @@
 
 .quick {
-    background: rgb(238,125,155);
+    background: #B4A1C9;
     margin-top: 100px;
     width: 80%;
     margin-left: 150px;
     border-radius: 30px;
     height: 400px;
+}
+.payment {
+    margin-right: 40px;
+}
+.payment-method {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin-right: 30px;
+}
+.visa {
+    margin-right: 50px;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 30px;
 }

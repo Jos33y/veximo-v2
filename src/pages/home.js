@@ -9,6 +9,9 @@ import 'animate.css';
 import BuyCrypto from "../component/buyCrypto";
 import Privacy from "../component/privacy";
 import Quick from "../component/qucikDepositWithdrawl";
+import Prices from "../component/prices";
+import Trade from "../component/trade";
+import CreditCard from "../component/creditCard";
 
 const Home = () => {
   return (
@@ -48,9 +51,9 @@ const Home = () => {
                       </div>
                   </div>
               </section>
-          <BuyCrypto />
-          <Privacy />
-          <Quick />
+          <Prices />
+         <Trade />
+          <CreditCard />
       </>
   );
 }

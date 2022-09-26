@@ -1,0 +1,40 @@
+
+.credit-card {
+    height: 450px;
+    width: 100%;
+    background: #f1f1f1;
+}
+.credit-card h1 {
+    padding-top: 100px;
+    color: purple;
+}
+.box {
+    width: 60%;
+    height: 180px;
+    background: #FFFFFF;
+    margin: auto;
+}
+.box .input-group {
+    height: 60px;
+}
+.box .spend {
+    width: 400px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.box .get {
+    width: 200px;
+    margin-right: 20px;
+}
+.box .btn {
+    width: 170px;
+    background: purple;
+    border: 1px solid purple;
+}
+.form-label {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.right {
+    margin-right: 300px;
+}
