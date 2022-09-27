@@ -1,10 +1,9 @@
-
-.quick {
+.visa-quick {
     margin-top: 100px;
     margin-left: 300px;
     border-radius: 30px;
     text-align: left;
-    height: 600px;
+    height: 950px;
 }
 .promo {
     margin-top: 55px;
@@ -18,9 +17,12 @@
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.vexi {
+.VM {
     margin-right: 30px;
     font-weight: bold;
+}
+.vexi {
+    font-weight: normal;
 }
 .payment-method {
     width: 150px;
@@ -35,6 +37,7 @@
     -webkit-box-shadow: -1px -3px 25px -9px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px -3px 25px -9px rgba(0,0,0,0.75);
     border-radius: 10px;
+    margin-right: 30px;
 }
 .visa {
     margin-right: 50px;
@@ -52,21 +55,8 @@
 .quick-button {
     float: left;
 }
-.quick-button .btn {
-    margin-right: 10px;
-    background: purple;
-    color: #FFFFFF;
-    height: 50px;
-    width: 370px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 18px;
-    border: 1px solid purple;
-    border-radius: 10px;
-}
 .btn-light-purple {
     background: #CBC3E3!important;
     color: purple!important;
-   border: 1px solid #B4A1C9!important;
+    border: 1px solid #B4A1C9!important;
 }

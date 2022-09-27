@@ -12,20 +12,24 @@ import Quick from "../component/qucikDepositWithdrawl";
 import Prices from "../component/prices";
 import Trade from "../component/trade";
 import CreditCard from "../component/creditCard";
+import Footer from "../component/footer";
+import VisaMasterCard from "../component/visaQuickDepositWithdrawal";
+import Services from "../component/services";
+import Invest from "../component/invest";
 
 const Home = () => {
   return (
       <>
-              <section className="d-flex">
+              <section className="home d-flex">
                   <div className="left-home-content">
                       <h1 className=" animate__backInLeft">The best way to buy and sell cryptocurrency</h1>
                       <p className=" animate__backInLeft">Sign up now to buy cryptocurrency and trade the most popular currency pairs</p>
                       <div className="socials-icon d-flex">
                           <div className="store">
-                              <button className="btn btn-dark animate__bounceIn"><img className="icon" src={appleIcon} alt=""/>Get on iPhone</button>
+                              <button className="btn btn-dark app-store animate__bounceIn"><img className="icon" src={appleIcon} alt=""/>Get on iPhone</button>
                           </div>
                           <div className="store">
-                              <button className="btn btn-dark animate__bounceIn"><img className="" src={googleIcon} alt=""/>Get on Android</button>
+                              <button className="btn btn-dark play animate__bounceIn"><img className="" src={googleIcon} alt=""/>Get on Android</button>
                           </div>
                       </div>
                   </div>
@@ -54,6 +58,10 @@ const Home = () => {
           <Prices />
          <Trade />
           <CreditCard />
+          <Quick />
+          <Services />
+          <Invest />
+          <Footer />
       </>
   );
 }

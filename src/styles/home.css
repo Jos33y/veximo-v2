@@ -53,6 +53,16 @@
     color: #101010;
     animation-duration: 2s;
 }
+.app-store {
+    background: purple!important;
+    color: #FFFFFF!important;
+    border: 1px solid purple!important;
+}
+.play {
+    background: #B4A1C9!important;
+    border: 1px solid #B4A1C9!important;
+    color: purple!important;
+}
 .store {
     margin-right: 10px;
 }

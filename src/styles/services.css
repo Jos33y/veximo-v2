@@ -1,0 +1,32 @@
+.services {
+    margin: auto;
+    width: 100%;
+}
+.services h1{
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.services p {
+    text-align: left;
+    font-size: 15px;
+}
+.services h4 {
+    text-align: left;
+    font-weight: bold;
+}
+
+.support {
+    height: 100px;
+    width: 100px;
+    margin-right: 250px;
+}
+.secure {
+    height: 100px;
+    width: 100px;
+    margin-right: 250px;
+}
+.p2p {
+    height: 100px;
+    width: 100px;
+    margin-right: 250px;
+}
