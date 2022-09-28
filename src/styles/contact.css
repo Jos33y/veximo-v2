@@ -1,0 +1,23 @@
+.contact {
+    background: #5954A4;
+    margin-top: 100px;
+    height: 500px;
+}
+.contact h1 {
+    margin-bottom: 50px;
+    padding-top: 80px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.contact p {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    color: #FFFFFF;
+}
+.contact-socials {
+    margin-top: 50px;
+}
+.socials {
+    margin-right: 50px;
+}

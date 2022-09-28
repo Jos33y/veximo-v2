@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+.home {
+    background: rgb(238,125,155);
+    background: linear-gradient(0deg, rgba(238,125,155,1) 0%, rgba(44,52,124,1) 40%, rgba(1,9,48,1) 100%);
+}
 .hero {
     background: rgb(238,125,155);
     background: linear-gradient(0deg, rgba(238,125,155,1) 0%, rgba(44,52,124,1) 40%, rgba(1,9,48,1) 100%);
@@ -29,7 +33,7 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 25px;
-    color:#101010;
+    color: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.75;
     width: 349px;

@@ -16,6 +16,8 @@ import Footer from "../component/footer";
 import VisaMasterCard from "../component/visaQuickDepositWithdrawal";
 import Services from "../component/services";
 import Invest from "../component/invest";
+import Contact from "../component/contact";
+import Location from "../component/location";
 
 const Home = () => {
   return (
@@ -57,10 +59,12 @@ const Home = () => {
               </section>
           <Prices />
          <Trade />
-          <CreditCard />
           <Quick />
+          <CreditCard />
           <Services />
+          <Privacy />
           <Invest />
+          <Contact />
           <Footer />
       </>
   );

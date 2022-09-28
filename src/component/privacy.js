@@ -8,26 +8,6 @@ import '../styles/privacy.css';
 const Privacy = () => {
   return (
       <>
-          <section className="section2">
-              <Row>
-                  <Col lg={6}>
-                      <div className="left-se2 d-flex">
-                          <img src={security} alt="" className="security"/>
-                          <div className="">
-                              <h1 className="animate__fadeInDown">Your security is our priority</h1>
-                              <p className="animate__backInLeft">Veximo uses the highest level of Internet Security and it is secured by 256 bits SSL security
-                                  encryption to ensure that your information is completely protected from fraud.</p>
-                          </div>
-                      </div>
-                  </Col>
-                  <Col lg={6}>
-                      <div className="shape">
-                          <img src={passcode} alt="" className="passcode  animate__backInLeft"/>
-                      </div>
-
-                  </Col>
-              </Row>
-          </section>
           <section className="section3">
               <div className="d-flex justify-content-center">
                   <div className="box1">

@@ -8,7 +8,7 @@ const Invest = () => {
                   <h1>Start Investing your crypto coins with Veximo</h1>
                   <button className="btn btn-primary">lets Get Started</button>
               </div>
-              <p className="text-muted">Take the first step for a future without limits</p>
+              <p className="">Take the first step for a future without limits</p>
           </section>
       </>
   );

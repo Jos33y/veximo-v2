@@ -52,18 +52,19 @@
 .section3 {
     margin-top: 100px;
     justify-content: center;
+    margin-bottom: 100px;
 }
 .box1 {
     height: 300px;
     width: 300px;
-    background: rgb(238,125,155);
+    background: #8454a2;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
 }
 .box2 {
     height: 300px;
     width: 300px;
-    background: #B4A1C9;
+    background: #5954A4;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
 }
