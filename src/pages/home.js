@@ -65,6 +65,7 @@ const Home = () => {
           <Privacy />
           <Invest />
           <Contact />
+          <Location />
           <Footer />
       </>
   );
