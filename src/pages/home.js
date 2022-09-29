@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, NavLink} from "react-bootstrap"
+import {Link, NavLink} from "react-router-dom";
 import appleIcon from '../assets/home/apple-icon.svg';
 import googleIcon from '../assets/home/google-icon.svg';
 import {FcGoogle} from "react-icons/fc";
@@ -65,7 +65,6 @@ const Home = () => {
           <Privacy />
           <Invest />
           <Contact />
-          <Location />
           <Footer />
       </>
   );

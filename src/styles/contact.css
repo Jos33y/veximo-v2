@@ -14,10 +14,30 @@
     margin: auto;
     text-align: center;
     color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
 }
 .contact-socials {
     margin-top: 50px;
 }
+.telegram {
+    padding-top: 25px;
+}
+.messenger {
+    padding-top: 25px;
+}
+.viper {
+    padding-top: 25px;
+}
 .socials {
     margin-right: 50px;
+    border: 3px solid  #8454a2;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    border-radius: 40%;
+    background: #8454a2;
+    box-shadow: -1px 2px 29px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 2px 29px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 29px -9px rgba(0,0,0,0.75);
 }

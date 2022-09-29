@@ -21,7 +21,7 @@ const Privacy = () => {
                           Therefore users can withdraw all money from their accounts and it will not affect the work of our exchange.</p>
                   </div>
               </div>
-              <div className=" right-box d-flex  justify-content-center">
+              <div className="right-box d-flex  justify-content-center">
                   <div className="white-money">
                       <h1>100%
                           WHITE MONEY</h1>

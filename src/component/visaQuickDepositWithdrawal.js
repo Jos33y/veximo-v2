@@ -2,6 +2,7 @@ import React from "react";
 import '../styles/visaQucikDepositWithdrawal.css';
 import logo from "../assets/home/db8474d3b20701cbcbb4.svg";
 import visa from "../assets/home/8f5ef671e775c0b684be.svg";
+import {Link, NavLink} from "react-router-dom";
 const VisaMasterCard = () => {
 
     return (
@@ -14,12 +15,16 @@ const VisaMasterCard = () => {
                         <h5>NGN</h5>
                     </div>
                     <div className="payments d-flex justify-content-center">
-                        <div className="payment-methods">
-                            <img src={logo} alt="" className="visa"/>
-                        </div>
-                        <div className="payment-method">
-                            <img src={visa} alt="" className="visa"/>
-                        </div>
+                        <NavLink to="/veximo"  className="nav-link">
+                            <div className="payment-method">
+                                <img src={logo} alt="" className="visa"/>
+                            </div>
+                        </NavLink>
+                        <NavLink to="/card"  className="nav-link cards">
+                            <div className="payment-methods">
+                                <img src={visa} alt="" className="visa"/>
+                            </div>
+                        </NavLink>
                     </div>
                     <div className="d-flex">
                         <p className="vexi">Veximo Code</p>

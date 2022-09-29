@@ -18,6 +18,8 @@
     text-align: left;
     padding-left: 80px;
     color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
 }
 .invest .btn {
     margin-left: 100px;

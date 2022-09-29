@@ -1,36 +1,70 @@
 .trade {
     background: #5954A4;
+    height: 600px;
 }
 .trade-left {
-
-    height: 600px;
+    height: 400px;
     width: 550px;
     float: left;
     margin-left: 60px;
+    padding-bottom: 40px;
+    background: #FFFFFF;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: -1px 2px 29px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 2px 29px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 29px -9px rgba(0,0,0,0.75);
+}
+.swap-exchange {
+    padding-bottom: 40px!important;
 }
 .trade-left .input-group {
     width: 500px;
-    padding-left: 40px;
+    padding-left: 50px!important;
 }
-
+.btn-outline-secondary {}
 .trade-left .form-control {
-    height: 80px;
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+
 }
 .trade-left .btn {
     width: 150px;
     border: 1px solid purple;
     background: purple;
+    color: #FFFFFF;
+}
+.you-pay {
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 20px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    width: 370px;
+    font-size: 15px;
+}
+.you-get {
+    text-align: left;
+    margin-left: 50px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    font-size: 15px;
+}
+.conversion-amount {
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    font-size: 15px;
 }
 .trade-left .send {
-    padding-top: 150px;
+
 }
 .trade-left .get {
-    padding-top: 20px;
+
 }
 .trade-left .btn-purple {
-    height: 80px;
-    width: 460px;
-    margin: 40px 18px 0 0;
+    height: 50px;
+    width: 450px;
     border-radius: 8px;
     background: purple;
     color: #FFFFFF;
@@ -43,37 +77,68 @@
     text-align: left;
     padding-left: 100px;
     padding-top: 150px;
+    margin-left: 100px;
 }
 .trade-right-content h1{
     font-style: normal;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 45px;
     line-height: 58px;
     letter-spacing: 2px;
     text-transform: capitalize;
-    color: purple;
+    color:  #FFFFFF;
 }
 .trade-right-content p {
     font-weight: 500;
     font-size: 15px;
     line-height: 25px;
-    color:#101010;
+    color: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.75;
     width: 370px;
     margin-top: 15px;
 }
-.btn-dark {
+.trade-right-list {
+    text-align: left!important;
+}
+.trade-list {
+    color: #FFFFFF;
+    list-style-type: none;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 15px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+
+}
+.trade-right-content .btn-dark {
     height: 48px;
     width: 160px;
-    background: transparent;
-    border: 1px solid #101010;
+    background: purple;
+    border: 1px solid purple;
     border-radius: 10px;
-    color: #101010;
+    margin-right: 20px;
+    color: #FFFFFF;
     animation-duration: 2s;
+}
+.trade-right-content .video {
+    height: 48px;
+    width: 300px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #101010;
+}
+.youtube {
+    color: red;
+    font-size: 30px;
+    margin-right: 5px;
 }
 .arrow {
     justify-content: right;
-    color: #FFFFFF;
-    font-size: 30px;
+    color:  #101010;
+    font-size: 20px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
 }
+

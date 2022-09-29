@@ -92,7 +92,8 @@
     padding-right: 150px;
     margin-right: 50px;
     font-size: 50px;
-    color: rgb(197, 109, 132);
+    color: purple;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.6);
 }
 .crypto {
     width: 250px;

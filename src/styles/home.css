@@ -24,7 +24,7 @@
     line-height: 58px;
     letter-spacing: 2px;
     text-transform: capitalize;
-    color: purple;
+    color: #FFFFFF;
     margin-top: 30px;
     animation-duration: 2s;
 }
@@ -63,9 +63,9 @@
     border: 1px solid purple!important;
 }
 .play {
-    background: #B4A1C9!important;
+    background: #FFFFFF!important;
     border: 1px solid #B4A1C9!important;
-    color: purple!important;
+    color: #101010!important;
 }
 .store {
     margin-right: 10px;
@@ -78,8 +78,16 @@
     margin-top: 50px;
     margin-left: 60px;
     animation-duration: 2s;
+    background: #FFFFFF;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: -1px 2px 29px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 2px 29px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 29px -9px rgba(0,0,0,0.75);
 }
-
+.signUp .nav-link {
+    color: #101010!important;
+}
 .signUp .form-control {
     height: 50px;
     width: 370px;
@@ -89,7 +97,7 @@
 .signUp .btn-purple {
     height: 50px;
     width: 370px;
-    margin: 40px 55px 0 0;
+    margin: 40px 0 0 0;
     border-radius: 8px;
     background: purple;
     color: #FFFFFF;
@@ -106,8 +114,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
-    line-height: 18px;
-    margin-right: 60px;
+    line-height: 18px;;
 }
 .signUp .google-icon {
     font-size: 20px;

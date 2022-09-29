@@ -2,6 +2,7 @@ import React from "react";
 import '../styles/quickDepositWithdrawal.css'
 import visa from '../assets/home/8f5ef671e775c0b684be.svg';
 import logo from '../assets/home/db8474d3b20701cbcbb4.svg';
+import {Link, NavLink} from "react-router-dom";
 const Quick = () => {
   return (
       <>
@@ -13,16 +14,21 @@ const Quick = () => {
                       <h5>NGN</h5>
                   </div>
                   <div className="payments d-flex justify-content-center">
-                      <div className="payment-method">
-                          <img src={logo} alt="" className="visa"/>
-                      </div>
-                      <div className="payment-methods">
-                          <img src={visa} alt="" className="visa"/>
-                      </div>
+                      <NavLink to="/veximo"  className="nav-link">
+                          <div className="payment-method">
+                             <img src={logo} alt="" className="visa"/>
+                          </div>
+                      </NavLink>
+                      <NavLink to="/card"  className="nav-link cardss">
+                          <div className="payment-methods">
+                            <img src={visa} alt="" className="visa"/>
+                          </div>
+                      </NavLink>
                   </div>
                   <div className="d-flex">
-                      <p className="vexi">Veximo Code</p>
-                      <p className="VM">Visa/MasteCard</p>
+                        <p className="vexi">Veximo Code</p>
+                        <p className="VM">Visa/MasteCard</p>
+
                   </div>
                   <div className="quick-content">
                       <h4>Veximo Code PRO</h4>
