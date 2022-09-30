@@ -27,7 +27,6 @@
     height: 50px;
     width: 300px;
     font-size: 30px;
-
 }
 .trade-left .btn {
     width: 150px;
@@ -142,3 +141,56 @@
     opacity: 0.75;
 }
 
+@media all and (max-width: 480px) {
+    .trade {
+        height: 950px;
+    }
+    .trade-left {
+        width: 320px;
+        margin-left: 28px;
+    }
+    .trade-left .input-group {
+        width: 300px;
+        padding-left: 20px!important;
+    }
+    .trade-left .btn {
+        width: 100px;
+    }
+    .trade-left .btn-purple {
+        width: 300px;
+    }
+    .trade-right-content {
+        text-align: center;
+        padding-left: 0;
+        padding-top: 20px;
+        margin-left: 0;
+    }
+    .trade-right-content h1{
+        color: #FFFFFF;
+        margin-left: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+        font-size: 36px;
+    }
+    .trade-right-content p {
+        margin-top: 0;
+        width: 300px;
+        text-align: center;
+        margin-left: 35px;
+    }
+    .trade-right-content .btn-dark {
+        width: 300px;
+    }
+    .trade-right-content .video {
+        height: 48px;
+        width: 300px;
+        margin-top: 20px;
+    }
+    .trade-right-list {
+        text-align: left!important;
+    }
+    .trade-list {
+        margin-top: 10px;
+
+    }
+}

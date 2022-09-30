@@ -99,3 +99,50 @@
     width: 250px;
     height: 300px;
 }
+@media all and (max-width: 480px) {
+    .box1 {
+        height: 150px;
+        width: 150px;
+        margin-left: 30px;
+    }
+
+    .crypto {
+        width: 100px;
+        height: 150px;
+    }
+    .right-box {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left-box {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .middle-box {
+        text-align: center;
+        padding-left: 0;
+        width: 350px;
+        margin: auto;
+    }
+    .middle-box h2 {
+        font-size: 22px;
+        line-height: 16px;
+    }
+    .middle-box p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .box2 {
+        height: 150px;
+        width: 150px;
+        margin-left: 190px;
+    }
+    .white-money {
+        margin-left: 80px;
+        width: 400px;
+    }
+    .white-money h1 {
+        font-size: 32px;
+        margin-top: 30px;
+    }
+}

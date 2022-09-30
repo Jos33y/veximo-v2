@@ -73,3 +73,50 @@
     color: purple!important;
    border: 1px solid #B4A1C9!important;
 }
+@media all and (max-width: 480px) {
+    .quick {
+        margin-top: 50px;
+        margin-left: 0;
+        border-radius: 30px;
+        text-align: center;
+        height: 700px;
+    }
+    .promo {
+        margin-top: 55px;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .quick .payments {
+        justify-content: left;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding-right: 60px;
+    }
+    .quick .nav-link {
+        width: 130px;
+    }
+    .quick .vexi {
+        margin-right: 50px;
+        font-weight: bold;
+        margin-left: 30px;
+    }
+    .quick-content {
+        margin-left: 20px;
+    }
+    .quick-content p {
+        text-align: center;
+        width: 350px!important;
+    }
+    .quick-button {
+        display: flex;
+        flex-direction: column!important;
+        margin-right: 0;
+        margin-left: 15px;
+    }
+    .quick-button .btn {
+      width: 300px;
+    }
+    .btn-light-purple {
+        margin-top: 20px;
+    }
+}

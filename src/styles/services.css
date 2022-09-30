@@ -31,3 +31,21 @@
     width: 100px;
     margin-right: 250px;
 }
+@media all and (max-width: 480px) {
+    .services {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .services h4 {
+        text-align: center;
+    }
+    .p2p {
+        margin-right: 0;
+    }
+    .support {
+        margin-right: 0;
+    }
+    .secure {
+        margin-right: 0;
+    }
+}

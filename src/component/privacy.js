@@ -9,7 +9,7 @@ const Privacy = () => {
   return (
       <>
           <section className="section3">
-              <div className="d-flex justify-content-center">
+              <div className="left-box d-flex justify-content-center">
                   <div className="box1">
                       <img src={crypto2} alt="" className="crypto"/>
                   </div>

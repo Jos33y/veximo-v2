@@ -13,7 +13,6 @@
     font-weight: bold;
     color: purple;
     mix-blend-mode: normal;
-
 }
 .box {
     width: 60%;
@@ -53,4 +52,31 @@
 }
 .credit-card .form-control {
     font-size: 30px;
+}
+@media all and (max-width: 480px) {
+    .box {
+        width: 350px;
+    }
+    .box .spend {
+        width: 200px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .box .get {
+        width: 100px;
+        margin-right: 0;
+    }
+    .box .btn {
+        width: 100px;
+    }
+    .credit-card p {
+        font-weight: bold;
+        color: purple;
+        mix-blend-mode: normal;
+    }
+    .credit-card .form-label {
+        margin-left: 0;
+        margin-top: 0;
+        display: none;
+    }
 }

@@ -56,3 +56,18 @@
         transform: translateX(-100%);
     }
 }
+
+@media all and (max-width: 480px) {
+    .marquee {
+        height: 30px;
+    }
+    .marquee ul {
+        padding-top: 6px;
+    }
+    .marquee li {
+        font-size: 12px;
+    }
+    .market-prices span {
+        font-size: 13px;
+    }
+}

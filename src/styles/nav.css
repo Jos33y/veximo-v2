@@ -32,3 +32,12 @@
     border-radius: 8px;
     padding: 10px;
 }
+
+@media all and (max-width: 480px) {
+    .navbar {
+        display: none;
+    }
+    .navbar-nav {
+        display: none!important;
+    }
+}

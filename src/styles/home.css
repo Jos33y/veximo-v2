@@ -4,8 +4,6 @@
     background: linear-gradient(0deg, rgba(238,125,155,1) 0%, rgba(44,52,124,1) 40%, rgba(1,9,48,1) 100%);
 }
 .hero {
-    background: rgb(238,125,155);
-    background: linear-gradient(0deg, rgba(238,125,155,1) 0%, rgba(44,52,124,1) 40%, rgba(1,9,48,1) 100%);
     height: 600px;
     width: 700px;
     float: right;
@@ -73,7 +71,9 @@
 .icon {
     margin-right: 3px;
 }
-
+.home .hero {
+    padding-left: 150px!important;
+}
 .signUp {
     margin-top: 50px;
     margin-left: 60px;
@@ -141,3 +141,45 @@
     margin-top: 10px;
 }
 
+@media all and (max-width: 480px) {
+    .home {
+        width: 375px;
+        height: 900px;
+    }
+    .left-home-content {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .left-home-content h1 {
+        font-size: 36px;
+    }
+    .left-home-content p {
+       margin-left: 10px;
+    }
+    .btn-dark {
+        height: 38px;
+        width: 140px;
+        margin-left: 25px;
+        font-size: 12px;
+    }
+    .signUp {
+        margin-top: 0;
+        width: 320px;
+        margin-right: 0;
+        margin-left: 205px;
+    }
+    .hero {
+        margin-right: 0;
+    }
+    .signUp .form-control {
+        width: 300px;
+    }
+    .signUp .btn-purple {
+        width: 300px;
+    }
+    .signUp .btn-dark {
+        width: 300px;
+    }
+}
