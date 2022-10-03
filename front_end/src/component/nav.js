@@ -18,10 +18,10 @@ const Nav = () => {
                           <NavLink to=""  className="nav-link">About us</NavLink>
                       </li>
                       <li className="nav-item">
-                          <NavLink to=""  className="nav-link sign-in">Sign in</NavLink>
+                          <NavLink to="signin"  className="nav-link sign-in">Sign in</NavLink>
                       </li>
                       <li className="nav-item">
-                          <NavLink to=""  className="nav-link create">Create Account</NavLink>
+                          <NavLink to="signup"  className="nav-link create">Create Account</NavLink>
                       </li>
                   </ul>
               </div>

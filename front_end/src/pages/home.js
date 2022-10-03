@@ -1,23 +1,20 @@
 import React from "react";
-import {Link, NavLink} from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import appleIcon from '../assets/home/apple-icon.svg';
 import googleIcon from '../assets/home/google-icon.svg';
 import {FcGoogle} from "react-icons/fc";
 import '../styles/home.css';
 import Nav from "../component/nav";
 import 'animate.css';
-import BuyCrypto from "../component/buyCrypto";
 import Privacy from "../component/privacy";
 import Quick from "../component/qucikDepositWithdrawl";
 import Prices from "../component/prices";
 import Trade from "../component/trade";
 import CreditCard from "../component/creditCard";
 import Footer from "../component/footer";
-import VisaMasterCard from "../component/visaQuickDepositWithdrawal";
 import Services from "../component/services";
 import Invest from "../component/invest";
 import Contact from "../component/contact";
-import Location from "../component/location";
 import {Col, Row} from "react-bootstrap";
 
 const Home = () => {
@@ -46,8 +43,8 @@ const Home = () => {
                               </div>
                               <div className="signUp animate__fadeInDownBig">
                                   <div className="d-flex">
-                                      <NavLink to=""  className="nav-link">Create Account</NavLink>
-                                      <NavLink to=""  className="nav-link">Sign In</NavLink>
+                                      <NavLink to="/signup"  className="nav-link">Create Account</NavLink>
+                                      <NavLink to="/signin"  className="nav-link">Sign In</NavLink>
                                   </div>
                                   <form>
                                       <input type="email" className="form-control"
