@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/quickDepositWithdrawal.css'
 import visa from '../assets/home/8f5ef671e775c0b684be.svg';
 import logo from '../assets/home/db8474d3b20701cbcbb4.svg';
-import {Link, NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 const Quick = () => {
   return (
       <>

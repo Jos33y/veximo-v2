@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3f7f7fc-4b4e-49b0-9cb0-0494eb5c312d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/front_end/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/component/Header/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/src/Authentication/Register/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/Authentication/Register/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/src/Authentication/SignIn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/Authentication/SignIn/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/src/Authentication/styles/authStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/Authentication/styles/authStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/src/component/Header/Styles/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/src/component/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/src/component/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/src/component/privacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/privacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/src/component/qucikDepositWithdrawl.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/quickDepositWithdrawl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/src/component/trade.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/trade.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/src/component/visaQuickDepositWithdrawal.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/visaQuickDepositWithdrawal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/src/pages/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/pages/home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,12 +28,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FbzQrRs6YgVIOqMGQPKNZvb8fq" />
   <component name="ProjectLevelVcsManager">
@@ -33,8 +53,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="Markdown" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\josep\WebstormProjects\veximo-v2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\josep\WebstormProjects\veximo-v2\front_end\src\component\Header\" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,11 +73,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664775558867</updated>
-      <workItem from="1664775560403" duration="570000" />
+      <workItem from="1664775560403" duration="36570000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

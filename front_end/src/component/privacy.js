@@ -1,7 +1,4 @@
 import React from "react";
-import security from '../assets/home/undraw_two_factor_authentication_namy.svg';
-import passcode from '../assets/home/passcode.png'
-import {Col, Row} from "react-bootstrap";
 import crypto from '../assets/home/undraw_digital_currency_qpak.svg';
 import crypto2 from '../assets/home/undraw_digital_currency_qpakpink.svg';
 import '../styles/privacy.css';

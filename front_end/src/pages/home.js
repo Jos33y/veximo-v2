@@ -7,7 +7,7 @@ import '../styles/home.css';
 import Nav from "../component/nav";
 import 'animate.css';
 import Privacy from "../component/privacy";
-import Quick from "../component/qucikDepositWithdrawl";
+import Quick from "../component/quickDepositWithdrawl";
 import Prices from "../component/prices";
 import Trade from "../component/trade";
 import CreditCard from "../component/creditCard";

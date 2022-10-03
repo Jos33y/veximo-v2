@@ -17,9 +17,9 @@ const Trade = () => {
                                       data-bs-toggle="dropdown" aria-expanded="false">BTC
                               </button>
                               <ul className="dropdown-menu dropdown-menu-end">
-                                  <li><a className="dropdown-item" href="#">ETH</a></li>
-                                  <li><a className="dropdown-item" href="#">BCH</a></li>
-                                  <li><a className="dropdown-item" href="#">LTE</a></li>
+                                  <li><a className="dropdown-item" href="https://">ETH</a></li>
+                                  <li><a className="dropdown-item" href="https://">BCH</a></li>
+                                  <li><a className="dropdown-item" href="https://">LTE</a></li>
                               </ul>
                           </div>
                           <RiArrowUpDownFill className="arrow" />
@@ -30,9 +30,9 @@ const Trade = () => {
                                       data-bs-toggle="dropdown" aria-expanded="false">ETH
                               </button>
                               <ul className="dropdown-menu dropdown-menu-end">
-                                  <li><a className="dropdown-item" href="#">ETH</a></li>
-                                  <li><a className="dropdown-item" href="#">BCH</a></li>
-                                  <li><a className="dropdown-item" href="#">LTE</a></li>
+                                  <li><a className="dropdown-item" href="https://">ETH</a></li>
+                                  <li><a className="dropdown-item" href="https://">BCH</a></li>
+                                  <li><a className="dropdown-item" href="https://">LTE</a></li>
                               </ul>
                               <p className="conversion-amount">1 BTC = 10 ETH</p>
                           </div>

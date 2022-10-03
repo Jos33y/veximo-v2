@@ -9,22 +9,22 @@ const Footer = () => {
                       <span>Get connected with us on social networks:</span>
                   </div>
                   <div>
-                      <a href="" className="me-4 link-secondary">
+                      <a href="https://" className="me-4 link-secondary">
                           <i className="fab fa-facebook-f"></i>
                       </a>
-                      <a href="" className="me-4 link-secondary">
+                      <a href="https://" className="me-4 link-secondary">
                           <i className="fab fa-twitter"></i>
                       </a>
-                      <a href="" className="me-4 link-secondary">
+                      <a href="https://" className="me-4 link-secondary">
                           <i className="fab fa-google"></i>
                       </a>
-                      <a href="" className="me-4 link-secondary">
+                      <a href="https://" className="me-4 link-secondary">
                           <i className="fab fa-instagram"></i>
                       </a>
-                      <a href="" className="me-4 link-secondary">
+                      <a href="https://" className="me-4 link-secondary">
                           <i className="fab fa-linkedin"></i>
                       </a>
-                      <a href="" className="me-4 link-secondary">
+                      <a href="https://" className="me-4 link-secondary">
                           <i className="fab fa-github"></i>
                       </a>
                   </div>
@@ -100,7 +100,7 @@ const Footer = () => {
 
               <div className="text-center p-4">
                   © 2021 Copyright:
-                  <a className="text-reset fw-bold" href="">MDBootstrap.com</a>
+                  <a className="text-reset fw-bold" href="https://">MDBootstrap.com</a>
               </div>
           </footer>
       </>
