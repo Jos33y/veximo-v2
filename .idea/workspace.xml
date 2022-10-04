@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3f7f7fc-4b4e-49b0-9cb0-0494eb5c312d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/front_end/src/component/Header/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/Authentication/Register/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/Authentication/Register/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/Authentication/SignIn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/Authentication/SignIn/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/Authentication/styles/authStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/Authentication/styles/authStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/component/Header/Styles/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/component/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/Header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/component/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/component/privacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/privacy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/component/qucikDepositWithdrawl.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/quickDepositWithdrawl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/component/trade.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/trade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/component/visaQuickDepositWithdrawal.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/visaQuickDepositWithdrawal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/pages/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/pages/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/src/Dashboard/pages/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/Dashboard/pages/Home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/src/Dashboard/pages/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/Dashboard/pages/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664775558867</updated>
-      <workItem from="1664775560403" duration="36570000" />
+      <workItem from="1664775560403" duration="41201000" />
     </task>
     <servers />
   </component>
