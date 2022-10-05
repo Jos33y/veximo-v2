@@ -1,7 +1,6 @@
 import React from "react";
 import '../styles/index.css'
 import DashHeader from "../../components/DashHeader";
-import {Container} from "react-bootstrap";
 
 const DashboardHome = () => {
     return (
