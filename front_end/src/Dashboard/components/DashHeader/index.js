@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "../styles/index.css";
 import {Link, NavLink} from "react-router-dom";
 
 const DashHeader = ({isActive}) => {
