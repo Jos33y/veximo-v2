@@ -87,6 +87,7 @@
 }
 .signUp .nav-link {
     color: #101010!important;
+    margin-left: 30px;
 }
 .signUp .form-control {
     height: 50px;
