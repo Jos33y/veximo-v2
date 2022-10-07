@@ -1,0 +1,95 @@
+.vexi-money-header {
+    margin-top: 100px;
+}
+.vexi-money-header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.vexi-money-header p {
+    margin-bottom: 30px;
+}
+.vexi-money .exchanges {
+    background: #19022e;
+    height: 900px;
+    border-radius: 10px;
+}
+
+.vexi-money .exchanges {
+    color: #FFFFFF;
+    text-align: left;
+
+}
+.vexi-money .exchanges h2 {
+    padding-top: 50px;
+    font-size: 30px;
+}
+.vexi-money .exchanges p{
+    font-size: 12px;
+}
+.vl {
+    border-left: 2px solid #FFFFFF;
+    height: 900px;
+}
+.exchanges .give {
+    margin-left: 120px;
+}
+.exchanges .get {
+    margin-left: 40px;
+}
+.exchanges .crypto-currency {
+    margin-left: 120px;
+}
+.exchanges .vl .crypto-currency {
+    margin-left: 40px;
+}
+.exchanges .btn {
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    color: #101010;
+    border: 1px solid #FFFFFF;
+}
+.exchanges .btn:focus {
+    border: 3px solid #5954A4;
+    background: #5954A4;
+    color: #FFFFFF;
+}
+.exchanges .btn:hover {
+    border: 3px solid #5954A4;
+    background: #5954A4;
+    color: #FFFFFF;
+}
+.vexi-money .form-label {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.vexi-money .form-group {
+    width: 350px;
+}
+.vexi-money .form-control {
+    height: 50px;
+}
+.vexi-money .form-box {
+    padding-top: 250px;
+    padding-left: 50px;
+}
+.vexi-money .form-buttons {
+    padding-left: 60px;
+    padding-top: 10px;
+}
+.vexi-money .form-buttons .btn {
+    background: #5954A4;
+    color: #FFFFFF;
+    border: 1px solid #5954A4;
+}
+.vexi-money .form-check-label {
+    font-size: 12px;
+}
+.vexi-money .form-check-label span {
+    color: #5954A4;
+}
+.vexi-money .form-check {
+    margin-top: 10px;
+}
