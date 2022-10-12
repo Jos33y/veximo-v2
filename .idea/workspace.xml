@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c3f7f7fc-4b4e-49b0-9cb0-0494eb5c312d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/component/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/Header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/component/Header/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/Header/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/pages/about.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_end/src/pages/refProgram.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/pages/refProgram.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_end/src/styles/refProgram.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/styles/refProgram.css" afterDir="false" />
     </list>
@@ -68,6 +64,8 @@
       <workItem from="1664880621836" duration="4854000" />
       <workItem from="1664893490330" duration="4241000" />
       <workItem from="1665149558694" duration="24213000" />
+      <workItem from="1665570584886" duration="221000" />
+      <workItem from="1665577090708" duration="2918000" />
     </task>
     <task id="LOCAL-00001" summary="partial work">
       <created>1665164684865</created>
@@ -90,7 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665214869256</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="partial work">
+      <created>1665570648331</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665570648331</updated>
+    </task>
+    <task id="LOCAL-00005" summary="partial work">
+      <created>1665570683148</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665570683148</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

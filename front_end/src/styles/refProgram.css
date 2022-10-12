@@ -94,3 +94,75 @@
 .ref-program .advice {
     margin-top: 100px;
 }
+.ref-program .advice .advice-links {
+    color: #101010;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.ref-program .advice .advice-details {
+    width: 680px;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.ref-program .advice span {
+    font-weight: bold;
+}
+.ref-program .advice .advice-content {
+    margin-left: 100px;
+}
+.ref-program .advice-content2 {
+    background: #5954A4;
+    color: #FFFFFF;
+    width: 470px;
+    height: 220px;
+    padding: 10px;
+}
+.ref-program .advice-content2 p {
+    width: 450px;
+    text-align: left;
+    font-size: 14px;
+    padding: 10px;
+
+}
+.ref-program .advice-content2 h6 {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
+}
+.ref-program .blogger {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.ref-program .blogger .message {
+    width: 730px;
+    text-align: left;
+    font-size: 14px;
+}
+.ref-program .blogger p {
+    font-size: 14px;
+    text-align: left;
+}
+.ref-program .blogger .title {
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.ref-program .QA {
+    margin-top: 100px;
+}
+.ref-program .QA h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.ref-program .QA .accordion{
+   width: 900px;
+    margin: auto;
+    background: #B4A1C9!important;
+}
+.ref-program .QA .accordion .accordion-body {
+    text-align: left;
+    padding: 10px;
+}
