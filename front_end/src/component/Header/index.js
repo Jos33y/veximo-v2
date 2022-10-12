@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import {Link, NavLink} from "react-router-dom";
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const NavHeader = () => {
     return (
@@ -20,12 +21,19 @@ const NavHeader = () => {
                                     <NavLink className="nav-link" to="/trades">Trades</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/products">Products</NavLink>
+                                    <NavDropdown title="Products" id="basic-nav-dropdown " className="basic-nav-dropdown">
+                                        <NavDropdown.Item><NavLink className="nav-link" to="/products">Veximo Money</NavLink></NavDropdown.Item>
+                                        <NavDropdown.Item href="#action/3.2"><NavLink className="nav-link" to="/products">My Veximo</NavLink></NavDropdown.Item>
+                                    </NavDropdown>
+                                </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="/refProgram">Ref. Program</NavLink>
                                 </li>
 
                                 <li className="nav-item">
                                     <NavLink className="nav-link" to="/about_us">About us</NavLink>
                                 </li>
+
                             </ul>
 
                             <div className="d-flex buttons">

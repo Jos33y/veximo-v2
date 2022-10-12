@@ -35,3 +35,12 @@
     background: #5954A4;
     border: 1px solid #5954A4;
 }
+.Header .basic-nav-dropdown {
+
+}
+.Header .dropdown-item{
+    width: 400px;
+}
+.Header .dropdown-item .nav-link{
+     color: #101010!important;
+}
