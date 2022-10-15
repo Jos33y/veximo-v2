@@ -56,9 +56,9 @@
     animation-duration: 2s;
 }
 .app-store {
-    background: purple!important;
+    background: #5954A4!important;
     color: #FFFFFF!important;
-    border: 1px solid purple!important;
+    border: 1px solid #5954A4!important;
 }
 .play {
     background: #FFFFFF!important;
@@ -100,7 +100,7 @@
     width: 370px;
     margin: 40px 0 0 0;
     border-radius: 8px;
-    background: purple;
+    background: #5954A4;
     color: #FFFFFF;
     font-style: normal;
     font-weight: 700;

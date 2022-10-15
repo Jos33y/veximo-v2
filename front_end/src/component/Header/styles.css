@@ -3,6 +3,9 @@
     background: #19022e;
     padding: 20px;
 }
+.Header .home-nav{
+    background: transparent;
+}
 .Header .navbar .navbar-brand{
     color: #FFFFFF;
     font-weight: 700;

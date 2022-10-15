@@ -16,10 +16,14 @@ import Services from "../component/services";
 import Invest from "../component/invest";
 import Contact from "../component/contact";
 import {Col, Row} from "react-bootstrap";
+import NavHeader from "../component/Header";
 
 const Home = () => {
   return (
       <>
+          <div className="home-nav">
+              <Nav />
+          </div>
               <section className="home">
                   <Row>
                       <Col lg={8}>
@@ -38,9 +42,7 @@ const Home = () => {
                       </Col>
                       <Col lg={4}>
                           <div className="hero">
-                              <div className="nav d-flex">
-                                  <Nav />
-                              </div>
+
                               <div className="signUp animate__fadeInDownBig">
                                   <div className="d-flex">
                                       <NavLink to="/signup"  className="nav-link">Create Account</NavLink>
