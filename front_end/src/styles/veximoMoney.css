@@ -10,7 +10,7 @@
     margin-bottom: 30px;
 }
 .vexi-money .exchanges {
-    background: #19022e;
+    background: rgba(1,9,48,1);
     height: 900px;
     border-radius: 10px;
 }
@@ -48,7 +48,7 @@
     height: 50px;
     margin-top: 20px;
     background: #FFFFFF;
-    color: #101010;
+    color: rgba(1,9,48,1);;
     border: 1px solid #FFFFFF;
 }
 .exchanges .btn:focus {
