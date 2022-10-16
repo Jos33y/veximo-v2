@@ -56,9 +56,9 @@
     animation-duration: 2s;
 }
 .app-store {
-    background: purple!important;
+    background: #5954A4!important;
     color: #FFFFFF!important;
-    border: 1px solid purple!important;
+    border: 1px solid #5954A4!important;
 }
 .play {
     background: #FFFFFF!important;
@@ -74,72 +74,154 @@
 .home .hero {
     padding-left: 150px!important;
 }
+.signUp .nav-link {
+    margin-left: 30px;
+}
 .signUp {
     margin-top: 50px;
     margin-left: 60px;
     animation-duration: 2s;
     background: #FFFFFF;
-    width: 400px;
+    width: 450px;
     border-radius: 10px;
     box-shadow: -1px 2px 29px -9px rgba(0,0,0,0.75);
     -webkit-box-shadow: -1px 2px 29px -9px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 2px 29px -9px rgba(0,0,0,0.75);
 }
-.signUp .nav-link {
-    color: #101010!important;
+.signUp .form-group{
+    margin: 25px 0px;
+    text-align: left;
 }
-.signUp .form-control {
-    height: 50px;
-    width: 370px;
-    margin: 15px 0 0 15px;
-    border-radius: 8px;
-}
-.signUp .btn-purple {
-    height: 50px;
-    width: 370px;
-    margin: 40px 0 0 0;
-    border-radius: 8px;
-    background: purple;
-    color: #FFFFFF;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 18px;
-}
-.signUp .btn-dark {
-    background: #FFFFFF;
-    color: #101010;
-    height: 50px;
-    width: 370px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 18px;;
-}
-.signUp .google-icon {
-    font-size: 20px;
-    margin-right: 10px;
-}
-.signUp .forgot-password {
-    text-align: right;
-    margin-right: 150px;
-}
-.signUp .agree {
-    font-style: normal;
-    font-weight: 400;
+.signUp .terms{
     font-size: 12px;
-    line-height: 16px;
-    letter-spacing: -0.214286px;
-    text-align: left!important;
-    width: 320px;
-    margin-left: 15px;
+}
+.signUp .terms .forgot_link{
+    font-size: 12px;
+    color: #5954A4;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.signUp  .forgot_link{
+    font-size: 14px;
+    color: #101010;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.signUp .form-group .send-code{
+    font-size: 14px;
+    color:  #101010;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.signUp  .text-bold{
+    font-weight: 600;
+}
+.signUp  .form-group .input-group{
+    border: 2px solid #FFFFFF;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: auto;
+    height: 50px;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+    width: 400px;
+}
+
+.signUp  .form-group .input-code{
+    border: 2px solid  #101010;
+    border-radius: 3px;
+    padding: 5px 5px;
+    height: 55px;
+    background:  #101010;
+}
+.signUp  .form-group .input-code input{
+    background:  #101010;
+    border: 1px solid  #101010;
+    font-size: 18px;
+    color: #101010;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.signUp  .form-group .input-code input::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: normal;
+    text-transform: none;
+}
+.signUp  .form-group .input-code input:focus{
+    box-shadow: none;
+    outline: none;
+}
+.signUp  .form-group .input-group .bx{
     margin-top: 10px;
+    font-size: 18px;
+}
+.signUp  .form-group .input-group input{
+    background: transparent;
+    border: 1px solid transparent;
+    font-size: 15px;
+    color:  #101010;
+}
+.signUp  .form-group .input-group input::placeholder{
+    color: #cfcfcf;
+}
+.signUp  .form-group .input-group input:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.signUp  .form-group .input-group input:active{
+    background: transparent;
+}
+
+.signUp  .form-buttons{
+    margin-top: 10px;
+
+}
+
+.signUp  .form-buttons .btn{
+    width: 400px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.signUp  .form-buttons .btn.btn-primary{
+    background: #5954A4;
+    border: 1px solid #5954A4;
+    color: #FFFFFF;
+
+}
+
+.signUp  .form-buttons .btn.btn-secondary{
+    background:  #19022e;
+    border: 1px solid #FFFFFF;
     color: #FFFFFF;
 }
-.signUp .register {
-    margin-left: 5px;
-    margin-top: 10px;
+.signUp  .form-buttons .btn.btn-secondary .img-fluid{
+    width: 20px;
+    margin-right: 20px;
 }
+
+.signUp  .form-buttons p{
+    text-align: center;
+    font-size: 13px;
+    color: #101010;
+}
+
+
+
+
+
+
+
 
 @media all and (max-width: 480px) {
     .home {

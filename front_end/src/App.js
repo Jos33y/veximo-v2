@@ -14,6 +14,8 @@ import DashboardAssets from "./Dashboard/pages/Assets";
 import DashboardReferralProgram from "./Dashboard/pages/RefProgram";
 import DashboardSettings from "./Dashboard/pages/Settings";
 import DashboardOrderHistory from "./Dashboard/pages/History/order";
+import VeximoMoney from "./pages/veximoMoney";
+import RefProgram from "./pages/refProgram";
 
 function App() {
   return (
@@ -33,7 +35,8 @@ function App() {
                 <Route path="/dashboard/ref_program" element={<DashboardReferralProgram />} />
                 <Route path="/dashboard/settings" element={<DashboardSettings />} />
                 <Route path="/dashboard/history/order" element={<DashboardOrderHistory />} />
-
+                <Route path="/products" element={<VeximoMoney />} />
+                <Route path="/refProgram" element={<RefProgram />} />
             </Routes>
         </Router>
     </div>

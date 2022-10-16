@@ -67,7 +67,6 @@ const SignIn = () => {
                         </div>
                     </Col>
                     <Col md={3}></Col>
-
                 </Row>
             </div>
         </>
