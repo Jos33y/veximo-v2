@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "../styles/index.css";
 import {Link, NavLink} from "react-router-dom";
 
 const DashHeader = ({isActive}) => {
@@ -37,7 +37,7 @@ const DashHeader = ({isActive}) => {
                                 <li className="nav-item dropdown">
                                     <NavLink className="nav-link dropdown-toggle" to="/" role="button"
                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i className='bx bx-user-circle'></i> josephlagbalu@gmail....
+                                        <i className='bx bx-user-circle'></i> josephlagbalu@gmail
                                     </NavLink>
                                     <ul className="dropdown-menu">
                                         <li>

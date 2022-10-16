@@ -53,7 +53,6 @@ const SignUp = () => {
                                         <Link to="/signup_agreement" className="forgot_link" > Veximo Exchange User Agreement </Link>
                                         and confirm that you are over 18 years old
                                     </p>
-
                                 </div>
 
                                 <div className="form-buttons">

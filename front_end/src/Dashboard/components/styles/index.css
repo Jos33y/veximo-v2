@@ -1,4 +1,4 @@
-
+/*Dashboard header styles*/
 .Header .navbar{
     background: #19022e;
     padding: 20px;
@@ -105,4 +105,116 @@
 }
 .Header .user-flex .dropdown-menu .dropdown-item.log-out{
     color: #f30000;
+}
+
+/*Crypto Dashboard card styles*/
+
+.crypto-balance .fiat-card{
+    padding: 30px 20px 20px;
+}
+
+.fiat-card .header{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.fiat-card .header .balance-header{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+}
+.fiat-card .header .balance-header .image-section {
+    width: 45px;
+}
+.fiat-card .header .balance-header .image-section .img-fluid{
+    width: 35px;
+}
+.fiat-card .header .balance-header .balance-text{
+    margin: 0;
+}
+.fiat-card .header .balance-header .balance-text p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #949494;
+    margin: 0;
+    padding: 0;
+}
+.fiat-card .header .balance-header .balance-text h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #101010;
+}
+.fiat-card .header .info .bx{
+    font-size: 20px;
+    color: #5954A4;
+    cursor: pointer;
+}
+.fiat-card .action-button{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+}
+.fiat-card .action-button .btn{
+    width: 100%;
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.fiat-card .action-button .btn.btn-primary{
+    background: #5954A4;
+    border: 1px solid #5954A4;
+    color: #FFFFFF;
+}
+
+.fiat-card .action-button .btn.btn-outline-primary{
+    background: #CBC3E3;
+    border: 1px solid #CBC3E3;
+    color: #5954A4;
+}
+.fiat-card .action-button .btn.btn-primary:hover{
+    background: #6e6aa3;
+}
+.fiat-card .action-button .btn.btn-outline-primary:hover{
+    background: #cfcedb;
+    border: 1px solid #CBC3E3;
+}
+.fiat-card .chart-footer{
+    margin-top: 25px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: space-between;
+}
+.fiat-card .chart-footer h6{
+    font-size: 13px;
+    color: #101010;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.fiat-card .chart-footer p{
+    margin-top: 0;
+    padding-top: 0;
+    width: 100%;
+    font-size: 11px;
+    color: #949494;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.fiat-card .chart-footer p .chart-status{
+    color: #33a112;
+    font-weight: 600;
+}
+.fiat-card .chart-footer .chart-section{
+    width: 55%;
+}
+.fiat-card .chart-footer .chart-section .img-fluid{
+    width: 100%;
 }
