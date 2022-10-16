@@ -1,6 +1,7 @@
 
 .ref-program .title {
     margin-top: 80px;
+    margin-left: 100px;
     font-size: 46px;
     font-weight: bold;
 }
@@ -25,26 +26,32 @@
 }
 .ref-program .btn {
     float:  left;
-    width: 220px;
+    width: 230px;
     margin-top: 20px;
     font-size: 15px;
     background: #5954A4;
     color: #FFFFFF;
     border: 1px solid #5954A4;
 }
+.ref-program .btn:hover {
+    background: #5954A4;
+    color: #FFFFFF;
+}
 .ref-program .process h1 {
     font-weight: bold;
+    text-align: center;
+}
+.ref-program .process .row-process {
+    margin-left: 150px;
 }
 .ref-program .process h5 {
     font-weight: bold;
     font-size: 18px;
-}
-.ref-program .process p {
-    font-size: 13px;
+    text-align: left;
 }
 .ref-program .process .process-details {
     width: 250px;
-    margin: auto;
+    font-size: 13px;
 }
 .ref-program .process .ref-img {
     height: 100px;
@@ -61,11 +68,31 @@
 .ref-program .profit-table .title {
     font-size: 36px;
     font-weight: bold;
+    text-align: center;
 }
 .ref-program .profit-table .profit-table-link {
     margin-left: 500px;
     margin-top: 50px;
     margin-bottom: 30px;
+    cursor: pointer;
+    color: #5954A4!important;
+}
+.ref-program .profit-table .profit-table-link:hover {
+    font-weight: 600;
+    cursor: pointer;
+    color: #101010;
+}
+.ref-program .profit-table .profit-table-link:focus {
+    font-weight: 600;
+    cursor: pointer;
+    color: #101010;
+    text-decoration: underline;
+}
+.ref-program .profit-table .profit-table-link {
+    font-weight: 600;
+    cursor: pointer;
+    color: #101010;
+    text-decoration: underline;
 }
 .ref-program .profit-table .profit-table-link .profit-links {
     color: #101010;
@@ -98,6 +125,7 @@
     color: #101010;
     text-decoration: none;
     margin-right: 30px;
+    cursor: pointer;
 }
 .ref-program .advice .advice-details {
     width: 680px;

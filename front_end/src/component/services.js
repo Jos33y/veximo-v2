@@ -11,7 +11,7 @@ const Services = () => {
           <Container>
               <section className="services">
                   <h1>what veximo offers you</h1>
-                  <Row>
+                  <Row className="row-section">
                       <Col lg={3}>
                           <img src={p2p} alt="" className="p2p"/>
                           <h4>Best Rates</h4>

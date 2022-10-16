@@ -3,6 +3,7 @@ import '../styles/trade.css';
 import { RiArrowUpDownFill} from "react-icons/ri";
 import {Col, Row} from "react-bootstrap";
 import {BsYoutube} from "react-icons/bs";
+import {Link, useNavigate} from "react-router-dom";
 const Trade = () => {
   return (
       <section className="trade ">
@@ -36,7 +37,7 @@ const Trade = () => {
                               </ul>
                               <p className="conversion-amount">1 BTC = 10 ETH</p>
                           </div>
-                          <button className="btn btn-purple">Swap</button>
+                         <Link to="/signin"><button className="btn btn-purple">Swap</button></Link>
                       </div>
                   </div>
               </Col>

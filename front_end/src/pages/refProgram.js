@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import NavHeader from "../component/Header";
 import '../styles/refProgram.css'
 import Row from 'react-bootstrap/Row';
@@ -16,6 +16,7 @@ import {Link} from "react-router-dom";
 
 
 const RefProgram = () => {
+    const [isActive, setIsActive] = useState(true);
   return (
       <>
           <NavHeader />
@@ -28,12 +29,12 @@ const RefProgram = () => {
                     <div>
                         <h3 className="commission-details">Receive <span>up to 75% </span>commission on all of your referrals.
                             The higher the trading volume, the higher the profit</h3>
-                        <button className="btn btn-dark">Receive your referral link</button>
+                       <Link to="/signin"> <button className="btn btn-dark">Receive your referral link</button></Link>
                     </div>
             </div>
             <div className="process">
                 <h1>How does it work</h1>
-                <Row>
+                <Row className="row-process">
                     <Col>
                         <img className="ref-img" src={link} alt="" />
                         <h5>
@@ -61,7 +62,7 @@ const RefProgram = () => {
                         </h5>
                         <p className="process-details">
                             Receive
-                            up to 75% commission on all your referalls. The greater the volume of trades,
+                            up to 75% commission on all your referrals. The greater the volume of trades,
                             the greater the profit.
 
                         </p>
@@ -72,56 +73,105 @@ const RefProgram = () => {
                 <Container>
                     <h1 className="title">Profit distribution table</h1>
                     <div className="profit-table-link d-flex">
-                        <Link to="" className="profit-links">Normal conditions</Link>
-                        <Link to="" className="profit-links">Terms for partners</Link>
+                        <p className="profit-links"  onClick={ () => setIsActive(true)}>Normal conditions</p>
+                        <p className="profit-links" onClick={ () =>  setIsActive(false)}>Terms for partners</p>
                     </div>
-                    <Table>
-                        <thead>
-                        <tr>
-                            <th className="profit-table-commission">Commission from all of your
-                                referrals for the week</th>
-                            <th>$0 - $1</th>
-                            <th>$1 - $50</th>
-                            <th>$50 - $250</th>
-                            <th>$250 +</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>Approximate trading volume</td>
-                            <td>$1 - $400</td>
-                            <td>$400 - $20k</td>
-                            <td>$20k - $100k</td>
-                            <td>$100k +</td>
-                        </tr>
-                        <tr>
-                            <td>Interest earned</td>
-                            <td>0%</td>
-                            <td>25%</td>
-                            <td>35%</td>
-                            <td>50%</td>
-                        </tr>
-                        <tr>
-                            <td>Your weekly earnings</td>
-                            <td>😔</td>
-                            <td>$0.25 - $12.5</td>
-                            <td>$17.5 - $87.5</td>
-                            <td>$125 +</td>
-                        </tr>
-                        </tbody>
-                    </Table>
+                    {isActive ? (
+                        <Table>
+                            <thead>
+                            <tr>
+                                <th className="profit-table-commission">Commission from all of your
+                                    referrals for the week</th>
+                                <th>$0 - $1</th>
+                                <th>$1 - $50</th>
+                                <th>$50 - $250</th>
+                                <th>$250 +</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Approximate trading volume</td>
+                                <td>$1 - $400</td>
+                                <td>$400 - $20k</td>
+                                <td>$20k - $100k</td>
+                                <td>$100k +</td>
+                            </tr>
+                            <tr>
+                                <td>Interest earned</td>
+                                <td>0%</td>
+                                <td>25%</td>
+                                <td>35%</td>
+                                <td>50%</td>
+                            </tr>
+                            <tr>
+                                <td>Your weekly earnings</td>
+                                <td>😔</td>
+                                <td>$0.25 - $12.5</td>
+                                <td>$17.5 - $87.5</td>
+                                <td>$125 +</td>
+                            </tr>
+                            </tbody>
+                        </Table>
+                    ): (
+                        <Table>
+                            <thead>
+                            <tr>
+                                <th className="profit-table-commission">Commission from all of your
+                                    referrals for the week</th>
+                                <th>$250 - $500</th>
+                                <th>$500 - $1000</th>
+                                <th>$1000 - $5000</th>
+                                <th>$5000 +</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Approximate trading volume</td>
+                                <td>$100k- $200k</td>
+                                <td>$200k - $400k</td>
+                                <td>$400k - $2 000 000</td>
+                                <td>$2 000 000 +</td>
+                            </tr>
+                            <tr>
+                                <td>Interest earned</td>
+                                <td>50%</td>
+                                <td>55%</td>
+                                <td>60%</td>
+                                <td>75%</td>
+                            </tr>
+                            <tr>
+                                <td>Your weekly earnings</td>
+                                <td>$125 - $250</td>
+                                <td>$275 - $550</td>
+                                <td>$600 - $3000</td>
+                                <td>$3750 +</td>
+                            </tr>
+                            </tbody>
+                        </Table>
+                    )
+                    }
+
                 </Container>
             </div>
             <div className="advice d-flex">
                             <div className="advice-content">
                                 <div className="advice-links d-flex">
-                                    <Link to="" className="advice-links">Example1</Link>
-                                    <Link to="" className="advice-links">Example2</Link>
+                                    <p className="advice-links"  onClick={ () => setIsActive(true)}>Example1</p>
+                                    <p className="advice-links" onClick={ () =>  setIsActive(false)}>Example2</p>
                                 </div>
-                                <p className="advice-details">You have 10 referrals, each of which trades $40,000 per week.
-                                    The total sum of the trades of all of your referalls will be $400,000 per week.
-                                    They will pay $1000 commission, and you will receive 50% of this amount, i.e.
-                                    $500, This means, <span>per month on 10 such referrals you will earn $2000</span></p>
+                                {isActive ? (
+                                    <p className="advice-details">You have 10 referrals, each of which trades $40,000 per week.
+                                        The total sum of the trades of all of your referalls will be $400,000 per week.
+                                        They will pay $1000 commission, and you will receive 50% of this amount, i.e.
+                                        $500, This means, <span>per month on 10 such referrals you will earn $2000</span></p>
+                                ): (
+                                    <p className="advice-details">You have 345 referalls, each of which trades $2000
+                                        per week. The total sum of trades of all of your referrals will be $690,000 per week.
+                                        They will pay $1725 in commission, and you will receive 60% of this amount,
+                                        i.e. $1035. This means that per month for 345 such referalls you will receive $4140.</p>
+                                )
+                                }
+
                             </div>
                             <div className="advice-content2">
                                 <h6>Advice</h6>

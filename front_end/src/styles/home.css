@@ -192,9 +192,9 @@
 }
 
 .auth-box .box-form .form-buttons .btn.btn-secondary{
-    background:  #19022e;
-    border: 1px solid #FFFFFF;
-    color: #FFFFFF;
+    background: #FFFFFF;
+    border: 1px solid #101010;
+    color: #101010;
 }
 .auth-box .box-form .form-buttons .btn.btn-secondary .img-fluid{
     width: 20px;
@@ -225,7 +225,7 @@
         font-size: 36px;
     }
     .left-home-content p {
-       margin-left: 10px;
+        margin-left: 10px;
     }
     .btn-dark {
         height: 38px;

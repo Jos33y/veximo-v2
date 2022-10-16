@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/crediCard.css'
+import {Link, NavLink} from "react-router-dom";
 const CreditCard = () => {
   return (
       <>
@@ -18,7 +19,7 @@ const CreditCard = () => {
                       <div className="input-group get">
                           <input type="text" className="form-control" placeholder="BTC"/>
                       </div>
-                      <button className="btn btn-primary">Buy Crypto</button>
+                     <Link to="/signin"><button className="btn btn-buy">Buy Crypto</button></Link>
                   </div>
               </div>
           </section>

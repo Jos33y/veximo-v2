@@ -6,6 +6,7 @@
 .services h1{
     margin-bottom: 50px;
     font-weight: bold;
+    text-align: center;
 }
 .services p {
     text-align: left;
@@ -15,7 +16,9 @@
     text-align: left;
     font-weight: bold;
 }
-
+.services .row-section {
+    margin-left: 50px;
+}
 .support {
     height: 100px;
     width: 100px;

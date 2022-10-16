@@ -8,6 +8,7 @@
     padding-top: 80px;
     color: #FFFFFF;
     font-weight: bold;
+    text-align: center;
 }
 .contact p {
     width: 600px;
@@ -22,12 +23,15 @@
 }
 .telegram {
     padding-top: 25px;
+    padding-left: 20px;
 }
 .messenger {
     padding-top: 25px;
+    padding-left: 20px;
 }
 .viper {
     padding-top: 25px;
+    padding-left: 25px;
 }
 .socials {
     margin-right: 50px;

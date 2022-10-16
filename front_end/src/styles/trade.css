@@ -23,6 +23,7 @@
     padding-left: 50px!important;
 }
 .btn-outline-secondary {}
+
 .trade-left .form-control {
     height: 50px;
     width: 300px;
@@ -30,10 +31,15 @@
 }
 .trade-left .btn {
     width: 150px;
-    border: 1px solid purple;
-    background: purple;
+    border: 1px solid #5954A4;
+    background:  #5954A4;
     color: #FFFFFF;
 }
+.trade-left .btn:hover {
+    background:  #5954A4;
+    color: #FFFFFF;
+}
+
 .you-pay {
     text-align: left;
     margin-left: 50px;
@@ -65,12 +71,17 @@
     height: 50px;
     width: 450px;
     border-radius: 8px;
-    background: purple;
+    background:  #5954A4;
     color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 18px;
+    margin-left: 50px;
+}
+.trade-left .btn-purple:hover {
+    background:  #5954A4;
+    color: #FFFFFF;
 }
 .trade-right-content {
     text-align: left;
@@ -112,17 +123,17 @@
 }
 .trade-right-content .btn-dark {
     height: 48px;
-    width: 160px;
-    background: purple;
-    border: 1px solid purple;
+    width: 200px;
+    background:  #FFFFFF;
+    border: 1px solid #101010;
     border-radius: 10px;
     margin-right: 20px;
-    color: #FFFFFF;
+    color: #101010;
     animation-duration: 2s;
 }
 .trade-right-content .video {
     height: 48px;
-    width: 300px;
+    width: 330px;
     border-radius: 10px;
     background: #FFFFFF;
     border: 1px solid #FFFFFF;
@@ -134,11 +145,11 @@
     margin-right: 5px;
 }
 .arrow {
-    justify-content: right;
     color:  #101010;
     font-size: 20px;
     mix-blend-mode: normal;
     opacity: 0.75;
+    margin-left: 250px;
 }
 
 @media all and (max-width: 480px) {

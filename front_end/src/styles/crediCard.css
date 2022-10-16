@@ -8,11 +8,13 @@
     padding-top: 100px;
     color: #FFFFFF;
     font-weight: bold;
+    text-align: center;
 }
 .credit-card p {
     font-weight: bold;
     color: purple;
     mix-blend-mode: normal;
+    text-align: center;
 }
 .box {
     width: 60%;
@@ -35,10 +37,16 @@
     width: 200px;
     margin-right: 20px;
 }
-.box .btn {
+.box .btn-buy {
     width: 170px;
-    background: purple;
-    border: 1px solid purple;
+    background: #5954A4;
+    border: 1px solid #5954A4;
+    height: 60px;
+    color: #FFFFFF;
+}
+.box .btn-buy:hover {
+    background: #5954A4;
+    color: #FFFFFF;
 }
 .form-label {
     margin-left: 20px;
