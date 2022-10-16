@@ -4,8 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import NavHeader from "../component/Header";
-import {Link} from "react-router-dom";
-import GoogleIcon from "../assets/authentication/google_logo_icon.png";
+// import {Link} from "react-router-dom";
+// import GoogleIcon from "../assets/authentication/google_logo_icon.png";
 import Contact from "../component/contact";
 import Footer from "../component/footer";
 

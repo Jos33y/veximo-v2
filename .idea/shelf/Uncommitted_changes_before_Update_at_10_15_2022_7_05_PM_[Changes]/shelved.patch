@@ -1,0 +1,47 @@
+Index: front_end/src/Dashboard/pages/Assets/index.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React from \"react\";\r\nimport '../styles/index.css'\r\nimport DashHeader from \"../../components/DashHeader\";\r\nimport {Col, Row} from \"react-bootstrap\";\r\n\r\nconst DashboardAssets = () => {\r\n    return (\r\n        <>\r\n\r\n            <DashHeader isActive=\"assets\" />\r\n            <div className=\"protect-assets-error\">\r\n                <p>  Warning, <span className=\"text-decoration-underline\"> you must enable 2FA. This will help protect your assets. </span> </p>\r\n            </div>\r\n\r\n            <div className=\"dashboard-home\">\r\n                <Row>\r\n                    <Col md={3}>\r\n                        <div className=\"sidebar\">\r\n                            <div className=\"total-asset-card\">\r\n                                <h4>Total of all assets</h4>\r\n                                <div className=\"total-balance\">\r\n                                    <h5>0</h5>\r\n                                    <h5>USD <i className='bx bxs-down-arrow-square'></i> </h5>\r\n                                </div>\r\n                                <p>0.00000000 BTC</p>\r\n                            </div>\r\n\r\n                            <div className=\"my-assets\">\r\n                                <h3>My assets</h3>\r\n                                <div className=\"history-card\">\r\n                                    <div className=\"history-card-header\">\r\n                                        <h4>Deposit/Withdrawal History</h4>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </Col>\r\n                </Row>\r\n            </div>\r\n            \r\n        </>\r\n    );\r\n}\r\nexport default DashboardAssets
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/front_end/src/Dashboard/pages/Assets/index.js b/front_end/src/Dashboard/pages/Assets/index.js
+--- a/front_end/src/Dashboard/pages/Assets/index.js	(revision e8b4660fea0f2b741a133b96b46f2c187b89405b)
++++ b/front_end/src/Dashboard/pages/Assets/index.js	(date 1665129691253)
+@@ -37,7 +37,7 @@
+                     </Col>
+                 </Row>
+             </div>
+-            
++
+         </>
+     );
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c3f7f7fc-4b4e-49b0-9cb0-0494eb5c312d\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/front_end/src/Dashboard/pages/Assets/index.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/front_end/src/Dashboard/pages/Assets/index.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/front_end/src/Dashboard/pages/styles/index.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/front_end/src/Dashboard/pages/styles/index.css\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"CSS File\" />\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2FbzQrRs6YgVIOqMGQPKNZvb8fq\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File\" value=\"Markdown\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\josep\\WebstormProjects\\veximo-v2\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\josep\\WebstormProjects\\veximo-v2\\front_end\\src\\component\\Header\\\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c3f7f7fc-4b4e-49b0-9cb0-0494eb5c312d\" name=\"Changes\" comment=\"\" />\r\n      <created>1664775558867</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1664775558867</updated>\r\n      <workItem from=\"1664775560403\" duration=\"54736000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e8b4660fea0f2b741a133b96b46f2c187b89405b)
++++ b/.idea/workspace.xml	(date 1665878707171)
+@@ -4,7 +4,6 @@
+     <list default="true" id="c3f7f7fc-4b4e-49b0-9cb0-0494eb5c312d" name="Changes" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/front_end/src/Dashboard/pages/Assets/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/Dashboard/pages/Assets/index.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/front_end/src/Dashboard/pages/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/Dashboard/pages/styles/index.css" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -59,7 +58,8 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1664775558867</updated>
+-      <workItem from="1664775560403" duration="54736000" />
++      <workItem from="1664775560403" duration="56069000" />
++      <workItem from="1665878381469" duration="323000" />
+     </task>
+     <servers />
+   </component>

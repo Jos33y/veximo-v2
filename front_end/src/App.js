@@ -25,18 +25,20 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="veximo" element={<Quick />} />
                 <Route path="card" element={<VisaMasterCard />} />
+                <Route path="/products" element={<VeximoMoney />} />
+                <Route path="/refProgram" element={<RefProgram />} />
+                {/*sign up and sign in routes*/}
                 <Route path="/signin" element={<SignIn />} />
                 <Route path="/signup" element={<Register />} />
                 <Route path="/confirm_email" element={<ConfirmEmail />} />
                 <Route path="/email_confirmed" element={<EmailConfirmed />} />
+                {/*dashboard routes*/}
                 <Route path="/dashboard/home" element={<DashboardHome />} />
                 <Route path="/dashboard/trades" element={<DashboardTrades />} />
                 <Route path="/dashboard/assets" element={<DashboardAssets />} />
                 <Route path="/dashboard/ref_program" element={<DashboardReferralProgram />} />
                 <Route path="/dashboard/settings" element={<DashboardSettings />} />
                 <Route path="/dashboard/history/order" element={<DashboardOrderHistory />} />
-                <Route path="/products" element={<VeximoMoney />} />
-                <Route path="/refProgram" element={<RefProgram />} />
             </Routes>
         </Router>
     </div>

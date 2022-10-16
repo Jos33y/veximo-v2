@@ -12,7 +12,7 @@ import influencer from '../assets/home/undraw_influencer_re_1fkb.svg';
 import Contact from "../component/contact";
 import Accordion from 'react-bootstrap/Accordion';
 import Footer from "../component/footer";
-import {Link, NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 
 const RefProgram = () => {
