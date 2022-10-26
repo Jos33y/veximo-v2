@@ -5,9 +5,11 @@
     font-weight: bold;
     font-size: 50px;
     margin-bottom: 30px;
+    text-align: center;
 }
 .vexi-money-header p {
     margin-bottom: 30px;
+    text-align: center;
 }
 .vexi-money .exchanges {
     background: rgba(1,9,48,1);

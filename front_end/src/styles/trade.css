@@ -131,12 +131,20 @@
     color: #101010;
     animation-duration: 2s;
 }
+.trade-right-content .btn-dark:hover {
+    background:  #FFFFFF;
+    color: #101010;
+}
 .trade-right-content .video {
     height: 48px;
     width: 330px;
     border-radius: 10px;
     background: #FFFFFF;
     border: 1px solid #FFFFFF;
+    color: #101010;
+}
+.trade-right-content .video:hover {
+    background: #FFFFFF;
     color: #101010;
 }
 .youtube {

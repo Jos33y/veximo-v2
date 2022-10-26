@@ -3,21 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c3f7f7fc-4b4e-49b0-9cb0-0494eb5c312d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/component/creditCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/creditCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/component/invest.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/invest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/component/quickDepositWithdrawl.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/quickDepositWithdrawl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/component/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/src/component/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_end/src/component/trade.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/component/trade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/pages/refProgram.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/pages/refProgram.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/styles/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/styles/crediCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/styles/crediCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/styles/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/src/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/styles/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_end/src/styles/invest.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/styles/invest.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/styles/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/styles/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/styles/quickDepositWithdrawal.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/styles/quickDepositWithdrawal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/styles/refProgram.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/styles/refProgram.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/styles/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/styles/services.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_end/src/styles/trade.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/styles/trade.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/src/styles/veximoMoney.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/styles/veximoMoney.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665853444223</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="maade some new color changes to the page and re-arranged the page content due to the width resizing">
+      <created>1665959006152</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665959006152</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +147,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="partial work" />
-    <option name="LAST_COMMIT_MESSAGE" value="partial work" />
+    <MESSAGE value="maade some new color changes to the page and re-arranged the page content due to the width resizing" />
+    <option name="LAST_COMMIT_MESSAGE" value="maade some new color changes to the page and re-arranged the page content due to the width resizing" />
   </component>
 </project>

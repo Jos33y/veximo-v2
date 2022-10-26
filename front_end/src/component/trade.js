@@ -51,7 +51,7 @@ const Trade = () => {
                               <li className="trade-list">Quick buy, sell, exchange</li>
                               <li className="trade-list">Instant tracking</li>
                           </ul>
-                          <button className="btn btn-dark">Exchange Crypto</button>
+                          <Link to="/signin"><button className="btn btn-dark">Exchange Crypto</button></Link>
                           <button className="btn btn-primary video"><BsYoutube  className="youtube"/>Exchange video representation</button>
                       </div>
                   </div>

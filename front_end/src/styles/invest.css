@@ -31,6 +31,10 @@
     border: 1px solid #FFFFFF;
     color: #101010;
 }
+.invest .btn:hover {
+    background: #FFFFFF;
+    color: #101010;
+}
 @media all and (max-width: 480px) {
     .invest-content {
         padding-left: 0;

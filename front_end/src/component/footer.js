@@ -49,35 +49,33 @@ const Footer = () => {
                                   Products
                               </h6>
                               <p>
-                                  <a href="#!" className="text-reset">Angular</a>
+                                  <a href="#!" className="text-reset">Kuna Money</a>
                               </p>
                               <p>
-                                  <a href="#!" className="text-reset">React</a>
+                                  <a href="#!" className="text-reset">My Kuna</a>
                               </p>
                               <p>
-                                  <a href="#!" className="text-reset">Vue</a>
+                                  <a href="#!" className="text-reset">Fast Buy</a>
                               </p>
-                              <p>
-                                  <a href="#!" className="text-reset">Laravel</a>
-                              </p>
+
                           </div>
 
                           <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
                               <h6 className="text-uppercase fw-bold mb-4">
-                                  Useful links
+                                  Company
                               </h6>
                               <p>
-                                  <a href="#!" className="text-reset">Pricing</a>
+                                  <a href="#!" className="text-reset">News</a>
                               </p>
                               <p>
-                                  <a href="#!" className="text-reset">Settings</a>
+                                  <a href="#!" className="text-reset">About us</a>
                               </p>
                               <p>
-                                  <a href="#!" className="text-reset">Orders</a>
+                                  <a href="#!" className="text-reset">User agreement</a>
                               </p>
                               <p>
-                                  <a href="#!" className="text-reset">Help</a>
+                                  <a href="#!" className="text-reset">Privacy policy</a>
                               </p>
                           </div>
 
