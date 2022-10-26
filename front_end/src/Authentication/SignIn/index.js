@@ -2,7 +2,6 @@ import React from "react";
 import '../styles/authStyle.css'
 import {Link, useNavigate} from "react-router-dom";
 import {Col, Row} from "react-bootstrap";
-import GoogleIcon from "../../assets/authentication/google_logo_icon.png";
 import NavHeader from "../../component/Header";
 
 const SignIn = () => {
@@ -55,9 +54,7 @@ const SignIn = () => {
 
                                 <div className="form-buttons">
                                     <button className="btn btn-primary" type="submit">Sign In</button>
-                                    <p>or</p>
-                                    <button className="btn btn-secondary">
-                                        <img src={GoogleIcon} alt="" className="img-fluid"/> Sign in using Google</button>
+                                
                                 </div>
 
                                 <div className="form-group text-center">

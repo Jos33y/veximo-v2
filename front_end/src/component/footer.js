@@ -97,8 +97,8 @@ const Footer = () => {
               </section>
 
               <div className="text-center p-4">
-                  © 2021 Copyright:
-                  <a className="text-reset fw-bold" href="https://">MDBootstrap.com</a>
+                  &copy; 2022 Copyright 
+                  <a className="text-reset fw-bold" href="https://veximo.io"> veximo.io</a>
               </div>
           </footer>
       </>

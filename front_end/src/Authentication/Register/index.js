@@ -1,18 +1,67 @@
-import React from "react";
-import {Col, Row} from "react-bootstrap";
-import {Link, useNavigate} from "react-router-dom";
-import GoogleIcon from "../../assets/authentication/google_logo_icon.png";
+import React, { useEffect, useState } from "react";
+import { Col, Row } from "react-bootstrap";
+import { Link, useNavigate } from "react-router-dom";
 import NavHeader from "../../component/Header";
+import { createUserWithEmailAndPassword } from "firebase/auth";
+import {auth} from "../../firebase"
+
 
 const SignUp = () => {
 
     const navigate = useNavigate()
-    const handleSubmit = (e) => {
+    
+    const [data, setData] = React.useState(null);
+    const [isDisable, setDisable] = useState(false)
+    const [formData, setFormData] = useState({
+        email: '',
+        password: '',
+    })
+    const { email, password } = formData;
+
+
+    const handleSubmit = async (e) => {
         e.preventDefault()
-        console.log('submitted');
-        navigate('/confirm_email');
+        setDisable(true);
+        try {
+        
+            await createUserWithEmailAndPassword(auth, email, password)
+                .then((userCredential) => {
+                    // eslint-disable-next-line
+                    const user = userCredential.user;
+                })
+                .catch((error) => {
+                    // eslint-disable-next-line
+                    const errorCode = error.code;
+                    // eslint-disable-next-line
+                    const errorMessage = error.message;
+                });
+
+
+            navigate('/confirm_email');
+
+        }
+        catch (error) {
+            console.error({ error });
+        }
+
     }
-    return(
+
+    const onChange = (e) => {
+        setFormData((prevState) => ({
+            ...prevState,
+            [e.target.id]: e.target.value,
+        }))
+    }
+
+    useEffect(() => {
+
+        fetch("/api")
+      .then((res) => res.json())
+      .then((data) => setData(data.message));
+
+    }, [])
+
+    return (
         <>
             <NavHeader />
             <div className="box-container">
@@ -23,15 +72,19 @@ const SignUp = () => {
                             <form onSubmit={handleSubmit} >
                                 <h3>Create account</h3>
                                 <p>Quick way to buy cryptocurrency</p>
+                                <p>{!data ? "Loading..." : data}</p>
 
                                 <div className="form-group">
                                     <div className="input-group">
                                         <i className='bx bxs-envelope'></i>
                                         <input type="text"
-                                               placeholder="Email"
-                                               required={true}
-                                               autoComplete="off"
-                                               className="form-control"/>
+                                            placeholder="Email"
+                                            required={true}
+                                            id="email"
+                                            value={email}
+                                            onChange={onChange}
+                                            autoComplete="off"
+                                            className="form-control" />
                                     </div>
 
                                 </div>
@@ -40,10 +93,13 @@ const SignUp = () => {
                                     <div className="input-group">
                                         <i className='bx bxs-lock-alt'></i>
                                         <input type="password"
-                                               placeholder="Password"
-                                               className="form-control"
-                                               autoComplete="off"
-                                               required={true}/>
+                                            id="password"
+                                            value={password}
+                                            onChange={onChange}
+                                            placeholder="Password"
+                                            className="form-control"
+                                            autoComplete="off"
+                                            required={true} />
                                     </div>
                                 </div>
 
@@ -56,10 +112,7 @@ const SignUp = () => {
                                 </div>
 
                                 <div className="form-buttons">
-                                    <button className="btn btn-primary" type="submit">Continue</button>
-                                    <p>or</p>
-                                    <button className="btn btn-secondary">
-                                        <img src={GoogleIcon} alt="" className="img-fluid"/> Continue with Google</button>
+                                    <button className="btn btn-primary" disabled={isDisable} type="submit">Continue</button>
                                 </div>
 
                                 <div className="form-group text-center">
