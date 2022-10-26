@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/crediCard.css'
-import {Link, NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 const CreditCard = () => {
   return (
       <>
